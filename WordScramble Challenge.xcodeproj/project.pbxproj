@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85FAF63B295252210066A03E /* WordScramble_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAF63A295252210066A03E /* WordScramble_ChallengeApp.swift */; };
+		85FAF63D295252210066A03E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAF63C295252210066A03E /* ContentView.swift */; };
+		85FAF63F295252220066A03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FAF63E295252220066A03E /* Assets.xcassets */; };
+		85FAF643295252220066A03E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FAF642295252220066A03E /* Preview Assets.xcassets */; };
+		85FAF64D295252220066A03E /* WordScramble_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAF64C295252220066A03E /* WordScramble_ChallengeTests.swift */; };
+		85FAF657295252220066A03E /* WordScramble_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAF656295252220066A03E /* WordScramble_ChallengeUITests.swift */; };
+		85FAF659295252220066A03E /* WordScramble_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAF658295252220066A03E /* WordScramble_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85FAF649295252220066A03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FAF62F295252210066A03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85FAF636295252210066A03E;
+			remoteInfo = "WordScramble Challenge";
+		};
+		85FAF653295252220066A03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FAF62F295252210066A03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85FAF636295252210066A03E;
+			remoteInfo = "WordScramble Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85FAF637295252210066A03E /* WordScramble Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WordScramble Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FAF63A295252210066A03E /* WordScramble_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble_ChallengeApp.swift; sourceTree = "<group>"; };
+		85FAF63C295252210066A03E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85FAF63E295252220066A03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85FAF640295252220066A03E /* WordScramble_Challenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordScramble_Challenge.entitlements; sourceTree = "<group>"; };
+		85FAF642295252220066A03E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85FAF648295252220066A03E /* WordScramble ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WordScramble ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FAF64C295252220066A03E /* WordScramble_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble_ChallengeTests.swift; sourceTree = "<group>"; };
+		85FAF652295252220066A03E /* WordScramble ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WordScramble ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FAF656295252220066A03E /* WordScramble_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble_ChallengeUITests.swift; sourceTree = "<group>"; };
+		85FAF658295252220066A03E /* WordScramble_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85FAF634295252210066A03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FAF645295252220066A03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FAF64F295252220066A03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85FAF62E295252210066A03E = {
+			isa = PBXGroup;
+			children = (
+				85FAF639295252210066A03E /* WordScramble Challenge */,
+				85FAF64B295252220066A03E /* WordScramble ChallengeTests */,
+				85FAF655295252220066A03E /* WordScramble ChallengeUITests */,
+				85FAF638295252210066A03E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85FAF638295252210066A03E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85FAF637295252210066A03E /* WordScramble Challenge.app */,
+				85FAF648295252220066A03E /* WordScramble ChallengeTests.xctest */,
+				85FAF652295252220066A03E /* WordScramble ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85FAF639295252210066A03E /* WordScramble Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				85FAF63A295252210066A03E /* WordScramble_ChallengeApp.swift */,
+				85FAF63C295252210066A03E /* ContentView.swift */,
+				85FAF63E295252220066A03E /* Assets.xcassets */,
+				85FAF640295252220066A03E /* WordScramble_Challenge.entitlements */,
+				85FAF641295252220066A03E /* Preview Content */,
+			);
+			path = "WordScramble Challenge";
+			sourceTree = "<group>";
+		};
+		85FAF641295252220066A03E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85FAF642295252220066A03E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85FAF64B295252220066A03E /* WordScramble ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				85FAF64C295252220066A03E /* WordScramble_ChallengeTests.swift */,
+			);
+			path = "WordScramble ChallengeTests";
+			sourceTree = "<group>";
+		};
+		85FAF655295252220066A03E /* WordScramble ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85FAF656295252220066A03E /* WordScramble_ChallengeUITests.swift */,
+				85FAF658295252220066A03E /* WordScramble_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "WordScramble ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85FAF636295252210066A03E /* WordScramble Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FAF65C295252220066A03E /* Build configuration list for PBXNativeTarget "WordScramble Challenge" */;
+			buildPhases = (
+				85FAF633295252210066A03E /* Sources */,
+				85FAF634295252210066A03E /* Frameworks */,
+				85FAF635295252210066A03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WordScramble Challenge";
+			productName = "WordScramble Challenge";
+			productReference = 85FAF637295252210066A03E /* WordScramble Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85FAF647295252220066A03E /* WordScramble ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FAF65F295252220066A03E /* Build configuration list for PBXNativeTarget "WordScramble ChallengeTests" */;
+			buildPhases = (
+				85FAF644295252220066A03E /* Sources */,
+				85FAF645295252220066A03E /* Frameworks */,
+				85FAF646295252220066A03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FAF64A295252220066A03E /* PBXTargetDependency */,
+			);
+			name = "WordScramble ChallengeTests";
+			productName = "WordScramble ChallengeTests";
+			productReference = 85FAF648295252220066A03E /* WordScramble ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85FAF651295252220066A03E /* WordScramble ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FAF662295252220066A03E /* Build configuration list for PBXNativeTarget "WordScramble ChallengeUITests" */;
+			buildPhases = (
+				85FAF64E295252220066A03E /* Sources */,
+				85FAF64F295252220066A03E /* Frameworks */,
+				85FAF650295252220066A03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FAF654295252220066A03E /* PBXTargetDependency */,
+			);
+			name = "WordScramble ChallengeUITests";
+			productName = "WordScramble ChallengeUITests";
+			productReference = 85FAF652295252220066A03E /* WordScramble ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85FAF62F295252210066A03E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					85FAF636295252210066A03E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					85FAF647295252220066A03E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 85FAF636295252210066A03E;
+					};
+					85FAF651295252220066A03E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 85FAF636295252210066A03E;
+					};
+				};
+			};
+			buildConfigurationList = 85FAF632295252210066A03E /* Build configuration list for PBXProject "WordScramble Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85FAF62E295252210066A03E;
+			productRefGroup = 85FAF638295252210066A03E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85FAF636295252210066A03E /* WordScramble Challenge */,
+				85FAF647295252220066A03E /* WordScramble ChallengeTests */,
+				85FAF651295252220066A03E /* WordScramble ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85FAF635295252210066A03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FAF643295252220066A03E /* Preview Assets.xcassets in Resources */,
+				85FAF63F295252220066A03E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FAF646295252220066A03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FAF650295252220066A03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85FAF633295252210066A03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FAF63D295252210066A03E /* ContentView.swift in Sources */,
+				85FAF63B295252210066A03E /* WordScramble_ChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FAF644295252220066A03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FAF64D295252220066A03E /* WordScramble_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FAF64E295252220066A03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FAF657295252220066A03E /* WordScramble_ChallengeUITests.swift in Sources */,
+				85FAF659295252220066A03E /* WordScramble_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85FAF64A295252220066A03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85FAF636295252210066A03E /* WordScramble Challenge */;
+			targetProxy = 85FAF649295252220066A03E /* PBXContainerItemProxy */;
+		};
+		85FAF654295252220066A03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85FAF636295252210066A03E /* WordScramble Challenge */;
+			targetProxy = 85FAF653295252220066A03E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85FAF65A295252220066A03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85FAF65B295252220066A03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		85FAF65D295252220066A03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WordScramble Challenge/WordScramble_Challenge.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble Challenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.WordScramble-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85FAF65E295252220066A03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WordScramble Challenge/WordScramble_Challenge.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WordScramble Challenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.WordScramble-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85FAF660295252220066A03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.WordScramble-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble Challenge";
+			};
+			name = Debug;
+		};
+		85FAF661295252220066A03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.WordScramble-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble Challenge";
+			};
+			name = Release;
+		};
+		85FAF663295252220066A03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.WordScramble-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WordScramble Challenge";
+			};
+			name = Debug;
+		};
+		85FAF664295252220066A03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.WordScramble-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WordScramble Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85FAF632295252210066A03E /* Build configuration list for PBXProject "WordScramble Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FAF65A295252220066A03E /* Debug */,
+				85FAF65B295252220066A03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FAF65C295252220066A03E /* Build configuration list for PBXNativeTarget "WordScramble Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FAF65D295252220066A03E /* Debug */,
+				85FAF65E295252220066A03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FAF65F295252220066A03E /* Build configuration list for PBXNativeTarget "WordScramble ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FAF660295252220066A03E /* Debug */,
+				85FAF661295252220066A03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FAF662295252220066A03E /* Build configuration list for PBXNativeTarget "WordScramble ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FAF663295252220066A03E /* Debug */,
+				85FAF664295252220066A03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85FAF62F295252210066A03E /* Project object */;
+}
